@@ -13,4 +13,16 @@ export const members: Member[] = [
     githubUsername: "OHMORIYUSUKE",
     websiteUrl: "https://portfolio-puce-beta.vercel.app/",
   },
+  {
+    name: "0yu",
+    bio: "ゆるゆるです。",
+    avatarSrc: "/avatars/0yu.jpg",
+    sources: [
+      "https://zenn.dev/denham/feed,
+      "https://hackteck.hatenablog.com/rss",
+    ],
+    twitterUsername: "denham95173179",
+    githubUsername: "yud0uhu",
+    websiteUrl: "https://yukimi-pino.netlify.app/",
+  },  
 ];
