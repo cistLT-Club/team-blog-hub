@@ -1,9 +1,10 @@
 :root {
-  --color-base-background: #111;
-  --color-base-background-lighter: #24242d;
-  --color-base-text: #fff;
-  --color-base-text-lighter: rgba(212, 231, 241, 0.6);
-  --color-border: rgba(115, 125, 130, 0.4);
-  --color-primary-background: #9060ff;
+  --color-base-background: url("./images/bg.jpg");
+  --color-base-background-lighter: #ebebeb94;
+  --color-base-text: rgb(255, 255, 255);
+  --color-base-text-dark: rgb(0, 0, 0);
+  --color-base-text-lighter: rgb(255, 255, 255);
+  --color-border: rgba(173, 173, 173, 0.747);
+  --color-primary-background: #bf60ff;
   --color-primary-text: #b494ff;
 }

@@ -36,7 +36,9 @@ const Page: NextPage = () => {
       <section className="home-members">
         <ContentWrapper>
           <div className="home-section-title-container">
-            <h2 className="home-section-title">Members</h2>
+            <h2 className="home-section-title">
+              ME<span>MB</span>E<span>R</span>S
+            </h2>
             <Link href="/members">
               <a className="home-section-link">See Details →</a>
             </Link>
@@ -53,7 +55,9 @@ const Page: NextPage = () => {
       <section className="home-posts">
         <ContentWrapper>
           <div className="home-section-title-container">
-            <h2 className="home-section-title">Articles</h2>
+            <h2 className="home-section-title">
+              B<span>L</span>O<span>G</span>S
+            </h2>
           </div>
 
           <div className="home-posts-container">

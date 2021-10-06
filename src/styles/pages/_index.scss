@@ -34,3 +34,18 @@
 .home-members-container {
   margin-top: 2rem;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+.home-section-title {
+  font-family: "Comfortaa", cursive;
+  color: #fcee21;
+  text-align: center;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #fcee21, 0 0 0.5em #fcee21,
+    0 0 0.1em #fcee21, 0 10px 3px #000;
+  span {
+    animation: blink linear infinite 2s;
+    &:nth-of-type(2) {
+      animation: blink linear infinite 3s;
+    }
+  }
+}
