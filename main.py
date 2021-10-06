@@ -8,7 +8,7 @@ def main():
     contents = fr.read()
     date = re.search(r'\<update-at>.+?\</update-at>', contents)
     fix_date = dt_now.strftime('WEBサイトの最終更新 : ' + '%Y年%m月%d日 %H:%M:%S')
-    fix_contents = contents.replace(date, fix_date)
+    fix_contents = contents.replace(str(date), str(fix_date))
     fw = open('README.md', 'w', encoding='UTF-8')
     fw.write(fix_contents)
     fw.close()
