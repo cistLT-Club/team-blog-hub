@@ -4,7 +4,7 @@ $side-padding-sm: 1rem;
   padding: 5rem 0;
   text-align: center;
   font-weight: 700;
-  color: var(--color-base-text-lighter);
+  color: var(--color-base-text-dark);
   font-size: 1.4rem;
 }
 .post-link {
@@ -33,7 +33,7 @@ $side-padding-sm: 1rem;
   }
 }
 .post-link__date {
-  color: var(--color-base-text-lighter);
+  color: var(--color-base-text-dark);
   font-size: 12px;
 }
 
@@ -41,14 +41,20 @@ $side-padding-sm: 1rem;
   border-radius: 25%;
   margin-right: 0.7rem;
 }
+
+.post-link__author-name {
+  color: var(--color-base-text-dark);
+}
+
 .post-link__title {
   font-size: 1.1rem;
   flex: 1;
+  color: var(--color-base-text-dark);
 }
 
 .post-link__site {
   margin-top: 0.9rem;
-  color: var(--color-base-text-lighter);
+  color: var(--color-base-text-dark);
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -87,6 +93,7 @@ $side-padding-sm: 1rem;
   justify-content: space-between;
   flex-wrap: wrap;
   .post-link {
+    border-radius: 5px;
     margin-top: 5%;
     width: 47.5%;
     @include mq(sm) {
@@ -104,6 +111,6 @@ $side-padding-sm: 1rem;
   padding: 0.9em 2em;
   border-radius: 2.5em;
   font-size: 0.9rem;
-  color: var(--color-base-text-lighter);
+  color: var(--color-base-text-dark);
   overflow-anchor: none;
 }
