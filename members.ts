@@ -18,7 +18,7 @@ export const members: Member[] = [
     bio: "ゆるゆるです。",
     avatarSrc: "/avatars/0yu.jpg",
     sources: [
-      "https://zenn.dev/denham/feed,
+      "https://zenn.dev/denham/feed",
       "https://hackteck.hatenablog.com/rss",
     ],
     twitterUsername: "denham95173179",
